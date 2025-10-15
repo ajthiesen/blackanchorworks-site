@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Black Anchor Works LLC</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
   <style>
     /* Base styles */
     :root {
@@ -25,8 +29,8 @@
       text-align: center;
     }
     .logo {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       margin-bottom: 1rem;
     }
     h1 {
@@ -47,21 +51,24 @@
       font-size: 0.85rem;
       color: var(--gray);
     }
-    /* Anchor SVG */
     svg {
       stroke: var(--accent);
-      stroke-width: 2;
+      stroke-width: 3;
       fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
   </style>
 </head>
 <body>
-  <!-- Minimalist anchor logo -->
+  <!-- Option 4 Anchor Logo -->
   <div class="logo">
     <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-      <line x1="32" y1="8" x2="32" y2="44" />
-      <circle cx="32" cy="8" r="4" />
-      <path d="M16,44 A16,16 0 0,0 48,44 L32,44 Z" />
+      <circle cx="32" cy="10" r="4"/>
+      <line x1="32" y1="14" x2="32" y2="46"/>
+      <path d="M18,46 L32,58 L46,46"/>
+      <path d="M14,46 A18,18 0 0,0 50,46"/>
+      <line x1="22" y1="32" x2="42" y2="32"/>
     </svg>
   </div>
 
