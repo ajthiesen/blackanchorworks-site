@@ -15,6 +15,7 @@
       --text: #111111;
       --accent: #000000;
       --gray: #666666;
+      --link: #000000;
     }
     body {
       margin: 0;
@@ -42,8 +43,16 @@
     p {
       max-width: 500px;
       color: var(--gray);
-      margin: 0.75rem auto 2rem;
+      margin: 0.5rem auto 1rem;
       line-height: 1.6;
+    }
+    a.email {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.email:hover {
+      text-decoration: underline;
     }
     footer {
       position: absolute;
@@ -74,6 +83,9 @@
 
   <h1>Black Anchor Works LLC</h1>
   <p>Professional contracting and independent services built on precision, reliability, and integrity.</p>
+  
+  <!-- Contact Email -->
+  <p>Contact: <a class="email" href="mailto:hello@blackanchorworks.com">hello@blackanchorworks.com</a></p>
 
   <footer>
     © <span id="year"></span> Black Anchor Works LLC
